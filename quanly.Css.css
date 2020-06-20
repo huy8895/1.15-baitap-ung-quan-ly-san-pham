@@ -1,0 +1,145 @@
+
+body {
+    background-color: #f7f7f7;
+    color: #4a4a4a;
+    font-family: 'open-sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    padding: 20px;
+}
+/* Articles get some borders, padding, and shadows */
+article {
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-color: #eaeaea;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+button {
+    border: none;
+    cursor: pointer;
+    padding-left: 0;
+    padding-right: 0;
+    transform: scale(1);
+}
+button:hover {
+    transform: scale(1.2);
+}
+button:focus {
+    outline: none;
+}
+button.close {
+    opacity: 0.5;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+button.close:hover {
+    opacity: 1;
+}
+/* The new button in the form */
+button.compose {
+    background-color: rgba(0, 255, 0, 0.86);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 40px;
+    width: 80px;
+}
+button.compose:hover {
+    background-color: rgba(0, 255, 0, 0.86);
+}
+button.edit {
+    float: right;
+
+    background-color: rgba(0, 255, 255, 0.75);
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 70px;
+}
+button.edit:hover {
+    opacity: 1;
+}
+button.delete {
+    float: right;
+    background-color: rgba(255, 0, 0, 0.7);
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 70px;
+}
+button.delete:hover {
+    opacity: 1;
+}
+h1 {
+    font-family: 'open-sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 8px;
+}
+td{
+    text-align: left;
+}
+
+/* Form */
+form {
+    background-color: #D5EBF8;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #81C4E9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+/* Textarea */
+input {
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #81C4E9;
+    color: #4a4a4a;
+    font-size: 14px;
+    height: 30px;
+    margin-bottom: 2px;
+    padding: 6px;
+    resize: none;
+    width: 50%;
+}
+input::placeholder {
+    color: #a9a9a9;
+}
+input:focus {
+    border-color: #2D9CDB;
+    outline: none;
+}
+/* Fieldset */
+fieldset {
+    border: none;
+    float: left;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 122px);
+}
+fieldset div {
+    color: #2D9CDB;
+    margin-left: 6px;
+    margin-top: 2px;
+}
